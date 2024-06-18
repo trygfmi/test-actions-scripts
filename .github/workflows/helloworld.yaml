@@ -1,4 +1,4 @@
-name; helloworld script
+name: helloworld script
 
 on:
   push:
