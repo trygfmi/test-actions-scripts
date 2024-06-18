@@ -3,7 +3,7 @@ name: helloworld script
 on:
   push:
     paths:
-    - "**/*.py"
+      - "**/*.py"
 
 jobs:
   sayHelloScript:
