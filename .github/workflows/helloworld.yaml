@@ -12,8 +12,6 @@ jobs:
     steps:
     - name: set up python
       uses: actions/setup-python@v5
-      with:
-        python-version: 5.1.0
 
     - name: print helloworld
       run: python hello.py
