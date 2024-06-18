@@ -13,4 +13,5 @@ jobs:
       with:
         script:
           console.log("hello");
+          console.log(" world");
           
