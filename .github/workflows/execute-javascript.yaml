@@ -1,0 +1,16 @@
+name: excecute-javascript
+
+on:
+  push:
+
+jobs:
+  sayhello:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: set up javascript
+      uses: actions/github-script@v6
+      with:
+        script:
+          console.log("hello");
+          
